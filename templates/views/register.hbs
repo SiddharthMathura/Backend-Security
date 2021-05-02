@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>navbar}}
+{{>header}}
+<body>
+    <h1>Registeration Page</h1>
+ <div class="container">
+        <div class="col-sm-6 col-md-4 mx-auto">
+        <form action="/register" method="POST">
+            <input type="text" placeholder="First Name" name="fname"><br><br>
+            <input type="text" placeholder="Last Name" name="lname"><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+            <input type="number" name="num" min="18" max="80" placeholder="Age"><br><br>
+            <input type="text" placeholder="Email" name="email"><br><br>
+            <input type="tel" id="phone" placeholder="Phone" name="phone" minlength="10" maxlength="10"><br><br>
+            <input type="password" name="password" placeholder="Password" id="password" >
+            <input type="password" name="cpassword" placeholder="Confirm Password" id="confirm_password" ><br><br>
+                <button type="submit">Register</button>
+     </form>
+    
+ </div>
+</body>
+</html>

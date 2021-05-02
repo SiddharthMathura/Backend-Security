@@ -1,0 +1,10 @@
+
+Introduction:- This is a Demo website, build to implement security, for SignIn/Login
+                and Registration. This site consists of protecting a users login 
+                details, mainly password using hashing method, the main objective of 
+                this site is Security hence there's no in-depth introduction to HTML/CSS 
+                pages.
+
+Build using? :- Nodejs, Expressjs, MongoDb, Mongoose.
+                Dependencies used dotenv, bcryptjs, cookie-parser, hbs,
+                jwt(jsonwebtoken), validator.
